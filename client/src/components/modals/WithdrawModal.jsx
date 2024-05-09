@@ -35,10 +35,10 @@ const WithdrawModal = ({
     setLoading(true);
     if (type === "withdraw") {
       if (amount <= 0) return toast.error("Please enter a valid amount");
-
+      
       try {
         await contract.withdraw(campaignId, ethers.parseEther(amount), {
-          gasLimit: 1000000,
+          gasLimit: 3000000,
         });
 
         toast.success("Withdraw Successful!");
@@ -60,13 +60,13 @@ const WithdrawModal = ({
         <div className="flex flex-col sm:flex-row gap-4">
           <div className="flex flex-col w-full items-center">
             <p className="text-xl">Total Collected</p>
-            <p className="text-xl font-semibold text-emerald-500">
+            <p className="text-xl font-semibold text-sky-500">
               {totalCollected ?? 0} Eth
             </p>
           </div>
           <div className="flex flex-col w-full items-center">
             <p className="text-xl">Total Withdrawn</p>
-            <p className="text-xl font-semibold text-emerald-500">
+            <p className="text-xl font-semibold text-sky-500">
               {totalWithdrawn ?? 0} Eth
             </p>
           </div>
@@ -88,14 +88,14 @@ const WithdrawModal = ({
           <ClientButton
             loading={loading}
             onClick={() => handleClick("withdraw")}
-            className="bg-emerald-500 border-2 border-emerald-500 py-2 px-4 rounded-lg hover:border-emerald-600 hover:bg-emerald-600 transition-all duration-200"
+            className="bg-sky-500 border-2 border-sky-500 py-2 px-4 rounded-lg hover:border-sky-600 hover:bg-sky-600 transition-all duration-200"
           >
             Withdraw
           </ClientButton>
           <ClientButton
             loading={loading}
             onClick={() => handleClick("cancel")}
-            className="border-2 border-emerald-500 text-emerald-500 py-2 px-4 rounded-lg hover:border-emerald-600 hover:bg-emerald-600 transition-all duration-200 hover:text-neutral-200"
+            className="border-2 border-sky-500 text-sky-500 py-2 px-4 rounded-lg hover:border-sky-600 hover:bg-sky-600 transition-all duration-200 hover:text-neutral-200"
           >
             Cancel
           </ClientButton>

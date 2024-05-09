@@ -16,7 +16,7 @@ const Navlink = ({ href, Icon, title, setToggleDrawer }) => {
             flex items-center p-2 md:justify-center rounded-lg gap-3 transition-all duration-200 hover:bg-neutral-700 
             ${
               (sort ? path + `?sort=${sort}` === href : path === href)
-                ? "bg-neutral-700 text-emerald-500"
+                ? "bg-neutral-700 text-sky-500"
                 : "bg-transparent text-neutral-400"
             }
         `}

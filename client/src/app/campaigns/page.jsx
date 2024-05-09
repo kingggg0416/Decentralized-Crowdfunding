@@ -20,7 +20,6 @@ const fetchCampaigns = async (sort) => {
 
 const Campaigns = async ({ searchParams }) => {
   const campaigns = await fetchCampaigns(searchParams.sort);
-
   return (
     <div>
       <h1 className="text-xl mb-4">

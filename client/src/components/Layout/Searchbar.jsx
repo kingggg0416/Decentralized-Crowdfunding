@@ -30,7 +30,7 @@ const Searchbar = () => {
       <button
         onClick={handleSubmit}
         type="submit"
-        className="-ml-2 bg-emerald-500 hover:bg-emerald-600 transition-all duration-200 rounded-lg py-3 px-4 border-2 border-emerald-500"
+        className="-ml-2 bg-sky-500 hover:bg-sky-600 transition-all duration-200 rounded-lg py-3 px-4 border-2 border-sky-500"
       >
         <FaSearch className="text-xl" />
       </button>

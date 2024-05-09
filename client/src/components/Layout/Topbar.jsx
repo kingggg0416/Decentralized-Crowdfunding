@@ -46,7 +46,7 @@ const Topbar = () => {
             <ClientButton
               onClick={() => router.push("/create")}
               loading={loading}
-              className="bg-emerald-500 hover:bg-emerald-600 transition-all duration-200 p-3 rounded-lg font-semibold"
+              className="bg-sky-500 hover:bg-sky-600 transition-all duration-200 p-3 rounded-lg font-semibold"
             >
               Create Campaign
             </ClientButton>
@@ -58,7 +58,7 @@ const Topbar = () => {
           <ClientButton
             onClick={connectWallet}
             loading={loading}
-            className="bg-emerald-500 hover:bg-emerald-600 transition-all duration-200 p-3 rounded-lg font-semibold"
+            className="bg-sky-500 hover:bg-sky-600 transition-all duration-200 p-3 rounded-lg font-semibold"
           >
             Connect
           </ClientButton>
@@ -86,7 +86,7 @@ const Topbar = () => {
             <ClientButton
               loading={loading}
               onClick={() => router.push("/create")}
-              className="bg-emerald-500 hover:bg-emerald-600 transition-all flex justify-center duration-200 p-3 rounded-lg font-semibold w-full"
+              className="bg-sky-500 hover:bg-sky-600 transition-all flex justify-center duration-200 p-3 rounded-lg font-semibold w-full"
             >
               Create Campaign
             </ClientButton>
@@ -94,7 +94,7 @@ const Topbar = () => {
             <ClientButton
               loading={loading}
               onClick={connectWallet}
-              className="bg-emerald-500 hover:bg-emerald-600 transition-all duration-200 p-3 rounded-lg font-semibold w-full"
+              className="bg-sky-500 hover:bg-sky-600 transition-all duration-200 p-3 rounded-lg font-semibold w-full"
             >
               Connect
             </ClientButton>

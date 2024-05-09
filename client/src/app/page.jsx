@@ -51,13 +51,13 @@ const Home = async () => {
                 height={50}
               />
               <h1 className="text-2xl md:text-4xl font-semibold">
-                Welcome to Fund Seed
+                Welcome to Open Fund 
               </h1>
             </div>
             <p className="text-sm md:text-lg text-neutral-400 mb-8 mt-4">
-              Fund Seed is a decentralized crowdfunding platform built on
+              Open Fund is a decentralized crowdfunding platform built on
               Ethereum. It allows anyone to create a campaign and raise funds.
-              What we have achieved so far:
+              Projects created so far:
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ const RangeInput = ({ value, onChange, max, step, min = 0 }) => {
       max={max}
       step={step}
       min={min}
-      className="w-full accent-emerald-500 outline-none"
+      className="w-full accent-sky-500 outline-none"
     />
   );
 };

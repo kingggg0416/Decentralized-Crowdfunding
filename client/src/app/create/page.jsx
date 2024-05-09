@@ -113,7 +113,7 @@ const Create = () => {
           value={formValues.description}
           onChange={(e) => handleFormInputChange("description", e)}
         />
-        <div className="flex items-center justify-around gap-4 bg-emerald-500 p-4 md:p-8 rounded-lg text-emerald-300">
+        <div className="flex items-center justify-around gap-4 bg-sky-500 p-4 md:p-8 rounded-lg text-sky-300">
           <FaEthereum className="text-5xl" />
           <span className="text-lg sm:text-xl md:text-2xl font-semibold">
             You will get 99% of the raised amount
@@ -139,14 +139,14 @@ const Create = () => {
         <div className="flex justify-end gap-4 mt-auto">
           <ClientButton
             loading={loading}
-            className="w-28 bg-emerald-500 border-2 border-emerald-500 hover:border-emerald-600 hover:bg-emerald-600 transition-all duration-200 p-3 rounded-lg font-semibold"
+            className="w-28 bg-sky-500 border-2 border-sky-500 hover:border-sky-600 hover:bg-sky-600 transition-all duration-200 p-3 rounded-lg font-semibold"
             onClick={handleSubmit}
             type="submit"
           >
             Create
           </ClientButton>
           <ClientButton
-            className="w-28 bg-transparent border-2 text-emerald-500 hover:text-white border-emerald-500 hover:border-emerald-600 hover:bg-emerald-600 transition-all duration-200 p-3 rounded-lg font-semibold"
+            className="w-28 bg-transparent border-2 text-sky-500 hover:text-white border-sky-500 hover:border-sky-600 hover:bg-sky-600 transition-all duration-200 p-3 rounded-lg font-semibold"
             onClick={handleReset}
           >
             Reset

@@ -118,7 +118,7 @@ const CampaignDetails = () => {
                 topDonations?.length > 0 ? topDonations.map((donation, index) => (
                   <div key={index} className="bg-neutral-800 p-4 rounded-lg">
                     <p className="text-neutral-400 flex items-center gap-2">
-                      <FaEthereum className="text-2xl text-emerald-500" />{" "}
+                      <FaEthereum className="text-2xl text-sky-500" />{" "}
                       <b>
                         {donation.amount}{" "}
                         <span className="hidden md:inline">Eth</span>
@@ -157,7 +157,7 @@ const CampaignDetails = () => {
               <ClientButton
                 type="submit"
                 onClick={handleSubmit}
-                className="w-full font-semibold p-2 rounded-lg bg-emerald-500 hover:bg-emerald-600 transition-all duration-200F"
+                className="w-full font-semibold p-2 rounded-lg bg-sky-500 hover:bg-sky-600 transition-all duration-200F"
                 loading={loading}
               >
                 Fund Campaign

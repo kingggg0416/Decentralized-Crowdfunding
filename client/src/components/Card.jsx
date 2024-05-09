@@ -69,13 +69,13 @@ const Card = ({ campaign, user }) => {
           <div className="sm:mt-4 mt-2 flex gap-3 font-semibold">
             <ClientButton
               onClick={(e) => handleClickButton(e, "withdraw")}
-              className="bg-emerald-500 rounded-lg border-2 border-emerald-500 hover:bg-emerald-600 hover:border-emerald-600 transition-all duration-200 w-full p-2"
+              className="bg-sky-500 rounded-lg border-2 border-sky-500 hover:bg-sky-600 hover:border-sky-600 transition-all duration-200 w-full p-2"
             >
               Withdraw
             </ClientButton>
             <ClientButton
               onClick={(e) => handleClickButton(e, "end")}
-              className="bg-transparent text-emerald-500 rounded-lg border-2 border-emerald-500 hover:bg-emerald-600 hover:border-emerald-600 hover:text-neutral-200 transition-all duration-200 w-full p-2"
+              className="bg-transparent text-sky-500 rounded-lg border-2 border-sky-500 hover:bg-sky-600 hover:border-sky-600 hover:text-neutral-200 transition-all duration-200 w-full p-2"
             >
               End
             </ClientButton>

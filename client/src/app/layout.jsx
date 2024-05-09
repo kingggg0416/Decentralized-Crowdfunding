@@ -1,21 +1,24 @@
-import { Epilogue } from "next/font/google";
+import { Inter } from "next/font/google";
 import 'react-toastify/dist/ReactToastify.css';
 
 import "./globals.css";
 import { Layout, Providers } from "@/components";
 
-const epilogue = Epilogue({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
-  title: "Fund Seed",
+  title: "Decentralized CrowdFunding",
   description:
-    "Fund Seed is your one-stop destination for bringing your boldest ideas to life. Our platform is designed to make crowdfunding seamless, engaging, and successful for creators and backers alike. Join the Fund Seed community and start sowing the seeds of innovation today.",
+    "Decentralized crowdfunding enables you to raise funds for your projects without the need for a middleman. Get started today!",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={epilogue.className}>
+      <body className={inter.className}>
         <Providers>
           <Layout>{children}</Layout>
         </Providers>
