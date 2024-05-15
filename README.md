@@ -34,3 +34,8 @@ For interacting with the deployed contract, you can go to remix `https://remix.e
 ![campaign-creation](https://github.com/kingggg0416/Decentralized-Crowdfunding/assets/85118159/811b9e3b-bf9b-4d01-8e5c-fbd4b6b91fee)
 
 ![campaign-details](https://github.com/kingggg0416/Decentralized-Crowdfunding/assets/85118159/93990991-baae-4433-8e80-0f63478932ee)
+
+
+## Attribute
+Thank you Ahmed Semih Erkan for the project idea and structure. Your repo offered me lots of guidance and help on integrating web3 with react/nextjs. 
+
